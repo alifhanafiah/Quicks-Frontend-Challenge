@@ -1,7 +1,9 @@
+import QuicksNav from './components/QuicksNav';
+
 function App() {
   return (
     <>
-      <h1>halo</h1>
+      <QuicksNav />
     </>
   );
 }
