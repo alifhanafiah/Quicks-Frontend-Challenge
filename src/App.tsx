@@ -1,9 +1,9 @@
-import QuicksNav from './components/QuicksNav';
+import FABWithMenu from "./components/FABWithMenu";
 
 function App() {
   return (
     <>
-      <QuicksNav />
+      <FABWithMenu />
     </>
   );
 }

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply font-lato bg-[#333];
+  @apply bg-[#333] font-lato;
 }
