@@ -12,6 +12,10 @@ export default {
             200: "#e0e0e0",
           },
         },
+
+        indicator: {
+          purple: "#8785FF",
+        },
       },
 
       width: {
