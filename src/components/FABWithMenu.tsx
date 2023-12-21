@@ -45,6 +45,7 @@ const FABWithMenu = () => {
           </p>
           <button
             // make the styling from shownav gone when showinbox is true
+            // TODO Refactor the variable styling
             className={`absolute -bottom-1/2 grid translate-y-1/2 place-items-center rounded-full transition-transform 
             ${
               showInbox
@@ -69,6 +70,7 @@ const FABWithMenu = () => {
             Task
           </p>
           <button
+            // TODO Refactor the variable styling
             className={`absolute -bottom-1/2 grid h-60 w-60 translate-y-1/2 place-items-center rounded-full bg-[#f2f2f2] transition-transform
             ${
               showInbox
