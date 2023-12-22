@@ -7,10 +7,10 @@ import InboxColored from "../assets/icons/question_answer_colored.svg";
 import Menu from "./Menu";
 
 const FABWithMenu = () => {
-  const [showText, setShowText] = useState(false);
-  const [showNav, setShowNav] = useState(false);
-  const [showInbox, setShowInbox] = useState(false);
-  const [showTask, setShowTask] = useState(false);
+  const [showText, setShowText] = useState<boolean>(false);
+  const [showNav, setShowNav] = useState<boolean>(false);
+  const [showInbox, setShowInbox] = useState<boolean>(false);
+  const [showTask, setShowTask] = useState<boolean>(false);
 
   const showNavHandler = () => {
     setShowNav((prev) => !prev);
@@ -29,7 +29,9 @@ const FABWithMenu = () => {
 
   return (
     <>
-      {showInbox || showTask ? <Menu /> : null}
+      {showInbox || showTask ? (
+        <Menu isInbox={showInbox} isTask={showTask} />
+      ) : null}
 
       <div className="fixed bottom-6 right-6 flex flex-row-reverse items-center gap-5 md:gap-8">
         <button
