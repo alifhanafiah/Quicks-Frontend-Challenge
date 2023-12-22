@@ -102,7 +102,7 @@ const FABWithMenu = () => {
             }
             ${
               showTask
-                ? "bg-indicator-yellow-200 z-50 h-68 w-68 translate-x-10 md:translate-x-16"
+                ? "z-50 h-68 w-68 translate-x-10 bg-indicator-yellow-200 md:translate-x-16"
                 : `h-60 w-60 bg-[#f2f2f2]
                 ${showNav ? "" : "translate-x-10 md:translate-x-16"}`
             }`}
