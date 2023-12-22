@@ -1,7 +1,7 @@
 import Spinner from "../assets/icons/spinner.svg";
 
 type LoadingProps = {
-  content: string;
+  content: string | null;
 };
 
 const Loading = ({ content }: LoadingProps) => {
