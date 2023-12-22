@@ -15,6 +15,9 @@ export default {
 
         indicator: {
           purple: "#8785FF",
+          yellow: {
+            200: "#F8B76B",
+          },
         },
       },
 
