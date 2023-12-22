@@ -7,9 +7,9 @@ export default {
         primary: {
           blue: "#3498db",
           gray: {
+            200: "#e0e0e0",
             400: "#4f4f4f",
             500: "#828282",
-            200: "#e0e0e0",
           },
         },
 
@@ -22,13 +22,13 @@ export default {
       },
 
       width: {
-        68: "4.25rem",
         60: "3.75rem",
+        68: "4.25rem",
       },
 
       height: {
-        68: "4.25rem",
         60: "3.75rem",
+        68: "4.25rem",
       },
 
       fontFamily: {
