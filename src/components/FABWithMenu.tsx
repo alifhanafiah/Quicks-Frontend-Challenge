@@ -95,14 +95,14 @@ const FABWithMenu = () => {
             className={`absolute -bottom-1/2 grid h-60 w-60 translate-y-1/2 place-items-center rounded-full bg-[#f2f2f2] transition-transform
             ${
               showInbox
-                ? "-translate-x-14 md:-translate-x-11"
+                ? "-translate-x-14 md:-translate-x-8"
                 : showNav
                   ? "-translate-x-28"
                   : "translate-x-10 md:translate-x-16"
             }
             ${
               showTask
-                ? "bg-indicator-yellow-200 z-50 h-68 w-68 translate-x-10 md:translate-x-16"
+                ? "z-50 h-68 w-68 translate-x-10 bg-indicator-yellow-200 md:translate-x-16"
                 : `h-60 w-60 bg-[#f2f2f2]
                 ${showNav ? "" : "translate-x-10 md:translate-x-16"}`
             }`}
